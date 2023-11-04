@@ -1,4 +1,6 @@
 {
+	"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+	"json.schemaDownload.enable": true,
 	"files.associations": {
 		"*.css": "postcss"
 	},
@@ -45,5 +47,14 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.stylelint": true
 	},
-	"cSpell.language": "en,pt-BR,pt"
+	"cSpell.language": "en,pt-BR,pt",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/node_modules": true
+	},
 }
